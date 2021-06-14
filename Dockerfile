@@ -77,7 +77,7 @@ RUN pip install pynvim pep8 flake8 black mypy pyre-check vulture pyflakes pylint
 
 RUN pip install git+https://github.com/arraiyopensource/kornia
 RUN pip install torchcontrib
-RUN pip install six numpy scipy Pillow matplotlib scikit-image opencv-python imageio Shapely filelock networkx nvidia-ml-py3 protobuf PyWavelets PyYAML tifffile 
+RUN pip install six numpy scipy Pillow matplotlib scikit-image opencv-python imageio Shapely filelock networkx nvidia-ml-py3 protobuf PyWavelets PyYAML tifffile jupyterlab
 RUN pip install git+https://github.com/aleju/imgaug
 RUN pip install -U git+https://github.com/albu/albumentations
 RUN conda init
